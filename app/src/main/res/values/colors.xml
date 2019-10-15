@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#cc5c70</color>
     <color name="colorAccent">#D81B60</color>
     <color name="ripple">#778899</color>
+    <color name="semiTransparentGnfrBlueColor">#602A3748</color>
 </resources>

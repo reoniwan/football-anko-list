@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple">
 
-</selector>
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <size android:width="20dp" android:height="20dp"/>
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/back_button"
+        android:drawable="@drawable/image_back_34dp"/>
+
+</ripple>

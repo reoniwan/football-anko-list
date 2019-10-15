@@ -36,9 +36,9 @@ class ClubDetail : AppCompatActivity() {
                 imageButton {
                     id = R.id.back_button
                     val back: ImageButton? = findViewById(R.id.back_button)
-                    back?.setOnClickListener { onBackPressed() }
+                    back?.setOnClickListener{ onBackPressed()}
                     //ICON_BACK
-                    background = ContextCompat.getDrawable(context, R.drawable.image_back_34dp)
+                    background = ContextCompat.getDrawable(context, R.drawable.ripple_effect)
                 }.lparams {
                     width = dip(30)
                     height = dip(30)
@@ -77,5 +77,8 @@ class ClubDetail : AppCompatActivity() {
             }
         }
 
+
     }
+
+
 }
